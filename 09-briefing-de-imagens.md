@@ -115,6 +115,6 @@ Os 3 anúncios da página hoje são caixas coloridas com texto. Se quiser deixá
 | 🔴 Alta | `precos-supermercado.jpg` | Corpo — "O Brasil tem pouca defesa" |
 | 🟠 Média | `despensa-organizada.jpg` | Corpo — perto das "3 medidas" |
 | 🟡 Baixa | `ao-vivo.jpg` | Sidebar "AO VIVO" |
-| 🟡 Baixa | `rel-inflacao.jpg` · `rel-safra.jpg` · `rel-economia.jpg` · `rel-elnino.jpg` | "Veja também" |
+| ✅ Feita | `rel-inflacao.jpeg` · `rel-safra.jpg` · `rel-economia.jpg` · `rel-elnino.webp` | "Veja também" |
 
 > Total: **9 imagens novas** + a hero já feita. Quando os arquivos estiverem em `pagina-de-vendas/img/`, avise para encaixar tudo no HTML.
