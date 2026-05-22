@@ -30,7 +30,7 @@
 
 ## CORPO DA MATÉRIA
 
-**[Imagem de abertura: despensa caseira organizada / ao lado, prateleira de supermercado. Legenda: "A diferença entre as duas cenas é uma decisão tomada a tempo."]**
+**[Imagem de abertura (`pagina-de-vendas/img/despensa-graos.jpg`): despensa caseira do interior — grãos, feijão e milho guardados em garrafas e potes reaproveitados, em prateleiras de madeira. Legenda: "Despensa caseira com grãos, feijão e milho guardados em garrafas e potes reaproveitados — o método tradicional do interior que protege os alimentos da umidade e das pragas."]**
 
 Existe uma data que a maioria das famílias brasileiras vai deixar passar sem perceber. E vai se arrepender.
 
@@ -45,6 +45,8 @@ E o que isso tem a ver com a sua cozinha? **Tudo.**
 A frase é de **Aldo Tavares, 58 anos, técnico agrícola** que passou mais de duas décadas trabalhando com armazenagem de alimentos no interior de Minas Gerais. Tavares cresceu no Vale do Jequitinhonha — uma das regiões mais castigadas pela seca no país — e diz ter visto, criança ainda, a mesma cena se repetir a cada estiagem.
 
 "Lá em casa, a despensa era da minha avó, a Dona Lourdes. Enquanto a rua inteira apertava o cinto nos anos ruins, o almoço da nossa casa continuava igual", conta. "Não era sorte. Não era dinheiro — éramos pobres. Era **método**. Ela sabia o que guardar, quanto, como guardar para durar, e em que mês comprar."
+
+A despensa da Dona Lourdes não tinha nada de sofisticado — era muito parecida com a da foto que abre esta reportagem: grãos, feijão e milho em garrafas e potes reaproveitados, cada um etiquetado à mão e guardado longe da umidade e do bicho. "O segredo nunca foi o recipiente caro", diz Tavares. "Foi saber **o que** guardar, **quanto** guardar e **como** guardar. Qualquer família consegue — e gastando quase nada com o armazenamento."
 
 ### O que o El Niño faz com o preço da sua comida
 
