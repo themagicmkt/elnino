@@ -111,10 +111,10 @@ Os 3 anúncios da página hoje são caixas coloridas com texto. Se quiser deixá
 |---|---|---|
 | ✅ Feita | `despensa-graos.jpg` | Hero |
 | 🔴 Alta | `aldo-tavares.jpg` + `aldo-tavares-avatar.jpg` | Especialista (assinatura + bio) |
-| 🔴 Alta | `lavoura-seca.jpg` | Corpo — "Por que o preço sobe" |
-| 🔴 Alta | `precos-supermercado.jpg` | Corpo — "O Brasil tem pouca defesa" |
-| 🟠 Média | `despensa-organizada.jpg` | Corpo — perto das "3 medidas" |
-| 🟡 Baixa | `ao-vivo.jpg` | Sidebar "AO VIVO" |
+| ✅ Feita | `lavoura-seca.webp` | Corpo — "Por que o preço sobe" |
+| ⚠️ A revisar | `precos-supermercado.jpg` | Corpo — "O Brasil tem pouca defesa" — imagem enviada tem logos "Carrefour" e está em espanhol (Argentina). Substituir por foto brasileira sem marca. |
+| ✅ Feita | `despensa-organizada.webp` | Corpo — perto das "3 medidas" |
+| ✅ Feita | `ao-vivo.jpg` | Sidebar "AO VIVO" |
 | ✅ Feita | `rel-inflacao.jpeg` · `rel-safra.jpg` · `rel-economia.jpg` · `rel-elnino.webp` | "Veja também" |
 
 > Total: **9 imagens novas** + a hero já feita. Quando os arquivos estiverem em `pagina-de-vendas/img/`, avise para encaixar tudo no HTML.
