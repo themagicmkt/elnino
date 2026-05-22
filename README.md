@@ -30,6 +30,7 @@ O anúncio leva a uma **matéria em formato editorial** (advertorial) que aquece
 | [`06-copy-advertorial.md`](06-copy-advertorial.md) | Copy da **matéria advertorial** (1ª página do funil). |
 | [`07-copy-tsl.md`](07-copy-tsl.md) | Copy da **TSL** — página de vendas em texto (2ª página do funil), bloco a bloco. |
 | [`08-roteiros-de-trafego.md`](08-roteiros-de-trafego.md) | Roteiros de anúncio, ângulos de criativo, headlines de teste e sequências de e-mail. |
+| [`09-briefing-de-imagens.md`](09-briefing-de-imagens.md) | Briefing das imagens do advertorial — descrição, posição, busca e prompt de IA. |
 | [`pagina-de-vendas/advertorial.html`](pagina-de-vendas/advertorial.html) | A matéria advertorial montada em HTML responsivo, pronta para publicar. |
 | [`pagina-de-vendas/index.html`](pagina-de-vendas/index.html) | A página de vendas (TSL) montada em HTML responsivo. |
 | [`COMPLIANCE.md`](COMPLIANCE.md) | Guarda-corpos legais e éticos (CDC, claims, personagem, garantia). **Leitura obrigatória.** |
