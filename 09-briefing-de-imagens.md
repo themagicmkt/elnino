@@ -110,7 +110,7 @@ Os 3 anúncios da página hoje são caixas coloridas com texto. Se quiser deixá
 | Prioridade | Arquivo | Uso |
 |---|---|---|
 | ✅ Feita | `despensa-graos.jpg` | Hero |
-| 🔴 Alta | `aldo-tavares.jpg` + `aldo-tavares-avatar.jpg` | Especialista (assinatura + bio) |
+| ⚠️ Em teste | `aldo-tavares.png` | Corpo do advertorial — **apenas teste visual**. A imagem contém diplomas falsos (IA) e está pesada (2,1 MB); regerar sem os diplomas e comprimir antes de produção. |
 | ✅ Feita | `lavoura-seca.webp` | Corpo — "Por que o preço sobe" |
 | ⚠️ A revisar | `precos-supermercado.jpg` | Corpo — "O Brasil tem pouca defesa" — imagem enviada tem logos "Carrefour" e está em espanhol (Argentina). Substituir por foto brasileira sem marca. |
 | ✅ Feita | `despensa-organizada.webp` | Corpo — perto das "3 medidas" |
