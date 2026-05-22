@@ -112,7 +112,7 @@ Os 3 anúncios da página hoje são caixas coloridas com texto. Se quiser deixá
 | ✅ Feita | `despensa-graos.jpg` | Hero |
 | ⚠️ Em teste | `aldo-tavares.png` | Corpo do advertorial — **apenas teste visual**. A imagem contém diplomas falsos (IA) e está pesada (2,1 MB); regerar sem os diplomas e comprimir antes de produção. |
 | ✅ Feita | `lavoura-seca.webp` | Corpo — "Por que o preço sobe" |
-| ⚠️ A revisar | `precos-supermercado.jpg` | Corpo — "O Brasil tem pouca defesa" — imagem enviada tem logos "Carrefour" e está em espanhol (Argentina). Substituir por foto brasileira sem marca. |
+| ✅ Feita | `precos-supermercado.jpg` | Corpo — "O Brasil tem pouca defesa" (foto brasileira, em português, sem logo de loja) |
 | ✅ Feita | `despensa-organizada.webp` | Corpo — perto das "3 medidas" |
 | ✅ Feita | `ao-vivo.jpg` | Sidebar "AO VIVO" |
 | ✅ Feita | `rel-inflacao.jpeg` · `rel-safra.jpg` · `rel-economia.jpg` · `rel-elnino.webp` | "Veja também" |
