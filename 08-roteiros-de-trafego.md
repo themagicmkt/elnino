@@ -10,7 +10,7 @@
    ANÚNCIO (Meta / Google / YouTube / TikTok)
         │   curiosidade + medo leve, SEM vender
         ▼
-   ADVERTORIAL  (advertorial.html — "Portal Vida Prevenida")
+   ADVERTORIAL  (advertorial.html — "BR Notícias")
         │   aquece, entrega valor, instala o medo com fato, prova
         ▼
    PÁGINA DE VENDAS  (index.html — TSL)

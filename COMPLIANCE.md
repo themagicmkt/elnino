@@ -15,7 +15,7 @@ A boa notícia: esta oferta **não precisa** mentir. O El Niño 2026 é real. A 
 ## 2. As 5 linhas vermelhas (NUNCA cruzar)
 
 ### 🚫 1. Não imitar veículos de imprensa reais
-O advertorial **não pode** usar nome, logo, fonte, cores ou layout confundíveis com CNN, Globo, G1, UOL, Folha ou qualquer veículo real. Isso é **uso indevido de marca** e **propaganda enganosa** (CDC, arts. 37–38), além de causar banimento imediato em Meta/Google. Use uma marca **própria e original** (ex.: "Portal Vida Prevenida") com selo de `CONTEÚDO PATROCINADO`.
+Adotar o **estilo visual** de portal de notícias (layout jornalístico, paleta vermelho/branco, seções, anúncios, comentários) é **permitido** — é um gênero de design genérico. O que é **proibido** é usar **nome, logo, tipografia ou identidade confundíveis** com CNN, Globo, G1, UOL, Folha ou qualquer veículo real. Isso é **uso indevido de marca** e **propaganda enganosa** (CDC, arts. 37–38), além de causar banimento imediato em Meta/Google. Use uma marca **própria e fictícia** (a peça usa "BR Notícias") e faça uma busca no INPI antes de adotar o nome em definitivo. Mantenha a etiqueta `CONTEÚDO PATROCINADO` legível na página.
 
 ### 🚫 2. Não inventar fatos sobre o El Niño
 Permitido: o que NOAA, INMET e WMO afirmam (probabilidade alta, cenário de evento forte, impacto em safra e preço). **Proibido:** "vai faltar comida", "apocalipse", "prateleiras vazias garantidas", "o maior da história", catástrofe. Ver tabela em `01-pesquisa-el-nino-2026.md`.
@@ -73,7 +73,9 @@ A melhor proteção contra reembolso e reclamação é um **produto bom**. Antes
 Marque tudo antes de colocar no ar:
 
 - [ ] O advertorial usa marca **própria**, sem imitar veículo real.
-- [ ] O selo `CONTEÚDO PATROCINADO` está visível no topo do advertorial.
+- [ ] A etiqueta `CONTEÚDO PATROCINADO` está visível e legível na página do advertorial.
+- [ ] Os comentários do advertorial são reais e moderados — nenhum comentário simulado ficou na página.
+- [ ] Os anúncios simulados (marcas fictícias) foram trocados por ad slots reais ou removidos.
 - [ ] Toda afirmação sobre o El Niño tem fonte (NOAA/INMET/WMO) linkada.
 - [ ] Nenhum depoimento `[EXEMPLO]` ficou na página — todos são reais e consentidos.
 - [ ] O personagem segue um dos caminhos éticos do arquivo 03.

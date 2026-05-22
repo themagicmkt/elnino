@@ -2,17 +2,18 @@
 
 > Esta é a **primeira página do funil**: uma matéria em formato editorial que aquece o tráfego frio, entrega valor real, instala o medo (ancorado em fato) e empurra para a página de vendas.
 >
-> **Veículo:** *Portal Vida Prevenida* — portal de conteúdo **original e próprio** da operação (NÃO imitar CNN, Globo ou qualquer veículo real — ver `COMPLIANCE.md`).
-> **Selo obrigatório no topo:** `CONTEÚDO PATROCINADO / PUBLICIDADE`.
-> **Renderização:** `pagina-de-vendas/advertorial.html`.
+> **Veículo:** *BR Notícias* — portal de notícias **original e fictício** da operação, com identidade visual de portal jornalístico (paleta vermelho/branco). NÃO imitar CNN, Globo ou qualquer veículo real — ver `COMPLIANCE.md`.
+> **Identidade visual:** deve ser **completamente distinta** da página de vendas (marca, cores, tipografia e layout diferentes) — o leitor não pode perceber que são do mesmo projeto.
+> **Etiqueta obrigatória:** `CONTEÚDO PATROCINADO` (discreta, mas legível — CDC art. 36).
+> **Renderização:** `pagina-de-vendas/advertorial.html` — portal completo com barra de cotações, navegação, faixa de última hora, anúncios simulados, sidebar "ao vivo", matérias relacionadas e comentários.
 
 ---
 
 ## CABEÇALHO DA PÁGINA
 
-> **Portal Vida Prevenida** — *Informação que protege a sua família*
-> Seção: **Economia Doméstica**
-> Selo: `🔶 CONTEÚDO PATROCINADO`
+> **BR Notícias** — *O Brasil bem informado*
+> Editoria: **Economia › Seu Bolso**
+> Etiqueta: `CONTEÚDO PATROCINADO` (no bloco da assinatura/autor)
 
 ---
 
@@ -23,7 +24,7 @@
 ### Subtítulo
 **Com o El Niño confirmado por NOAA e INMET e a pressão de preços já em curso, o técnico agrícola Aldo Tavares explica o "ponto de virada" que separa as famílias prevenidas das que vão pagar a conta da pressa — e ensina por onde começar hoje.**
 
-*Por Redação Vida Prevenida · Atualizado em [DATA] · 7 min de leitura*
+*Por Redação BR Notícias · Atualizado em [DATA] · 7 min de leitura*
 
 ---
 
@@ -145,16 +146,16 @@ O material está disponível online, com acesso imediato, por um valor promocion
 
 ## RODAPÉ DA PÁGINA
 
-> **Portal Vida Prevenida** · Conteúdo de caráter publicitário (advertorial).
+> **portal BR Notícias** · Conteúdo de caráter publicitário (advertorial).
 > Esta página é uma publicação patrocinada pelo anunciante do *Método Despensa Blindada*. As informações climáticas citadas têm fonte pública e verificável. Resultados variam conforme a aplicação individual do método. Não constitui aconselhamento financeiro, nutricional ou de segurança.
-> © [ANO] Vida Prevenida. Política de Privacidade · Termos de Uso · Contato.
+> © [ANO] BR Notícias. Política de Privacidade · Termos de Uso · Contato.
 
 ---
 
 ## NOTAS DE PRODUÇÃO
 
 - **Disclosure:** o selo `CONTEÚDO PATROCINADO` deve estar **visível no topo, antes do título** — exigência de transparência (CDC + políticas de Meta/Google). Não esconda.
-- **Marca própria:** "Portal Vida Prevenida" é um nome de exemplo. Use qualquer nome **original**. Nunca logotipo, fonte, cor ou nome confundível com veículo real.
+- **Marca própria:** "portal BR Notícias" é um nome de exemplo. Use qualquer nome **original**. Nunca logotipo, fonte, cor ou nome confundível com veículo real.
 - **Imagens:** use fotos com licença comercial ou geradas/produzidas pela operação. Nunca foto de jornalista ou pessoa real sem autorização.
-- **Byline:** "Redação Vida Prevenida" evita criar um jornalista fictício nomeado. Se quiser autor nomeado, use uma pessoa real e consentida.
+- **Byline:** "Redação BR Notícias" evita criar um jornalista fictício nomeado. Se quiser autor nomeado, use uma pessoa real e consentida.
 - **Velocidade:** advertorial deve carregar rápido no celular (maior parte do tráfego virá de mobile).

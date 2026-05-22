@@ -10,7 +10,7 @@ Pacote completo de uma oferta de marketing de resposta direta (low-ticket) sobre
 
 ```
    ANÚNCIO  →  ADVERTORIAL (matéria)  →  PÁGINA DE VENDAS (TSL)  →  CHECKOUT
-              "Portal Vida Prevenida"      Método Despensa Blindada    + bump + upsell
+              "portal BR Notícias"      Método Despensa Blindada    + bump + upsell
 ```
 
 O anúncio leva a uma **matéria em formato editorial** (advertorial) que aquece o tráfego, entrega valor e instala o medo ancorado em fato. A matéria empurra para a **página de vendas em texto (TSL)**, onde está a oferta.
@@ -44,7 +44,7 @@ O anúncio leva a uma **matéria em formato editorial** (advertorial) que aquece
 - **Preço:** R$ 37 (ancorado em R$ 197) + order bump (+R$ 19) + upsell (+R$ 97).
 - **Mecanismo:** O *Método da Despensa Blindada* — comprar **antes** da alta provocada pelo El Niño.
 - **Especialista:** Aldo Tavares — técnico agrícola, mineiro do Jequitinhonha.
-- **Veículo do advertorial:** *Portal Vida Prevenida* — marca de conteúdo **própria e original**.
+- **Veículo do advertorial:** *portal BR Notícias* — marca de conteúdo **própria e original**.
 
 ---
 

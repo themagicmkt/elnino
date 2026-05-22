@@ -28,7 +28,7 @@ Decisões e contas que destravam todo o resto.
 
 - [ ] **Definir o caminho do personagem** (A, B ou C — ver `03-personagem-especialista.md`, Seção 6). Quem será o rosto/voz do Aldo Tavares?
 - [ ] **Ler e aprovar o `COMPLIANCE.md`** com quem decide. É o contrato da operação.
-- [ ] Definir a marca do advertorial (nome original do portal — sugestão: "Vida Prevenida").
+- [ ] Definir a marca do advertorial (nome original do portal — sugestão: "BR Notícias" / verificar no INPI).
 - [ ] Definir nome comercial da empresa/CNPJ para o gateway.
 - [ ] Abrir conta em **gateway/plataforma** de infoproduto (ex.: Hotmart, Kiwify, Eduzz, Cartpanda — escolher uma) com suporte a order bump e upsell 1-clique.
 - [ ] Abrir/qualificar **conta de anúncios** (Meta Business + Google Ads). Aquecer o Business Manager.
