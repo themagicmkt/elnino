@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Método Despensa Blindada — Proteja a despensa da sua família antes do El Niño 2026</title>
+<meta name="description" content="O passo a passo para montar uma despensa de 90 dias para a sua família, gastando pouco e antes da alta de preços do El Niño 2026.">
+<!--
+  ====================================================================
+  PÁGINA DE VENDAS (TSL) — Método Despensa Blindada.
+  Copy completa em 07-copy-tsl.md. Voz: Aldo Tavares.
+  ANTES DE PUBLICAR:
+   - Trocar TODOS os href="#checkout" pelo link real do checkout.
+   - Substituir números de ancoragem conforme COMPLIANCE.md.
+   - Inserir imagens reais do personagem/produto.
+   - Garantir que "lote de lançamento" seja urgência REAL e cumprida.
+  ====================================================================
+-->
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #2b2620; background: #f3ece0; line-height: 1.65; font-size: 18px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; background: #fffdf8; }
+  .pad { padding: 32px 26px; }
+  h1, h2, h3 { line-height: 1.25; }
+  p { margin: 16px 0; }
+  strong { color: #1f1b15; }
+  em { color: #8a3b1e; font-style: italic; }
+
+  /* ---- Topo de alerta ---- */
+  .alert-bar {
+    background: #8a3b1e; color: #ffe9cf; text-align: center;
+    font-size: 14px; font-weight: bold; letter-spacing: .4px;
+    padding: 10px 14px;
+  }
+
+  /* ---- Cabeçalho / headline ---- */
+  .hero { background: #16413c; color: #f1efe6; }
+  .preheadline {
+    text-transform: uppercase; letter-spacing: 1.5px;
+    font-size: 13px; font-weight: bold; color: #e8b53d;
+    text-align: center; margin-bottom: 18px;
+  }
+  .hero h1 { font-size: 33px; color: #fff; }
+  .hero h1 .hl { color: #e8b53d; }
+  .hero h2 {
+    font-size: 21px; font-weight: 600; color: #cfe3df;
+    margin-top: 16px;
+  }
+  .hero .subh {
+    font-size: 17px; font-style: italic; color: #aecbc4;
+    margin-top: 14px;
+  }
+  .hero-img {
+    background: #214f49 url('IMAGEM-ALDO-DESPENSA.jpg') center/cover;
+    height: 280px; border-radius: 8px; margin-top: 24px;
+    display: flex; align-items: flex-end;
+  }
+  .hero-img span {
+    background: rgba(0,0,0,.45); color: #f1efe6; font-size: 13px;
+    padding: 6px 12px; margin: 10px;
+  }
+
+  /* ---- Seções de conteúdo ---- */
+  .lead p:first-child { font-size: 21px; }
+  .section h2 {
+    font-size: 26px; color: #16413c; margin: 8px 0 6px;
+  }
+  .kicker {
+    text-transform: uppercase; letter-spacing: 1.2px;
+    font-size: 13px; font-weight: bold; color: #8a3b1e;
+  }
+  .quote {
+    border-left: 5px solid #e8b53d; background: #faf3e2;
+    padding: 18px 22px; margin: 26px 0;
+    font-size: 21px; font-style: italic; color: #3a3320;
+  }
+  .alt { background: #efe7d8; }
+  .dark { background: #16413c; color: #e9e6dc; }
+  .dark h2 { color: #fff; }
+  .dark strong { color: #fff; }
+
+  /* ---- Pilares ---- */
+  .pillar {
+    background: #fffdf8; border: 1px solid #e3d8bf; border-radius: 8px;
+    padding: 18px 20px; margin: 14px 0;
+  }
+  .pillar h3 { font-size: 19px; color: #8a3b1e; }
+
+  /* ---- Lista de módulos ---- */
+  .modules { list-style: none; }
+  .modules li {
+    background: #fffdf8; border: 1px solid #e3d8bf; border-radius: 8px;
+    padding: 14px 16px; margin: 10px 0; font-size: 16.5px;
+  }
+  .modules li strong { display: block; color: #16413c; font-size: 17.5px; }
+
+  /* ---- Bônus ---- */
+  .bonus {
+    background: #fff7e6; border: 1px dashed #d9b24a; border-radius: 8px;
+    padding: 14px 16px; margin: 10px 0;
+  }
+  .bonus .val { color: #8a3b1e; font-weight: bold; font-size: 14px; }
+
+  /* ---- Caixa de preço ---- */
+  .pricebox {
+    background: #16413c; color: #fff; border-radius: 12px;
+    text-align: center; padding: 30px 24px; margin: 26px 0;
+  }
+  .pricebox .old {
+    font-size: 20px; color: #aecbc4; text-decoration: line-through;
+  }
+  .pricebox .now {
+    font-size: 54px; font-weight: 800; color: #e8b53d; margin: 4px 0;
+  }
+  .pricebox .inst { font-size: 16px; color: #cfe3df; }
+  .pricebox .stack {
+    font-size: 15px; color: #aecbc4; margin: 14px 0;
+  }
+
+  /* ---- Botão CTA ---- */
+  .cta { text-align: center; margin: 24px 0; }
+  .btn {
+    display: inline-block; background: #e8b53d; color: #1a1200 !important;
+    font-weight: 800; font-size: 20px; text-decoration: none;
+    padding: 20px 28px; border-radius: 50px; box-shadow: 0 5px 0 #b88c1f;
+    line-height: 1.3; max-width: 95%;
+  }
+  .btn:active { transform: translateY(4px); box-shadow: 0 1px 0 #b88c1f; }
+  .btn-sub {
+    font-size: 13px; color: #6b6457; margin-top: 12px;
+  }
+  .dark .btn-sub, .pricebox .btn-sub { color: #aecbc4; }
+
+  /* ---- Garantia ---- */
+  .guarantee {
+    background: #faf3e2; border: 2px solid #e8b53d; border-radius: 12px;
+    padding: 24px 22px; margin: 26px 0; text-align: center;
+  }
+  .guarantee .seal {
+    font-size: 15px; font-weight: 800; color: #8a3b1e;
+    text-transform: uppercase; letter-spacing: 1px;
+  }
+  .guarantee h3 { font-size: 23px; color: #16413c; margin: 6px 0 10px; }
+
+  /* ---- FAQ ---- */
+  .faq details {
+    background: #fffdf8; border: 1px solid #e3d8bf; border-radius: 8px;
+    padding: 4px 16px; margin: 10px 0;
+  }
+  .faq summary {
+    font-weight: bold; color: #16413c; cursor: pointer;
+    padding: 12px 0; font-size: 17px; list-style: none;
+  }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::before { content: "＋ "; color: #8a3b1e; font-weight: 800; }
+  .faq details[open] summary::before { content: "－ "; }
+  .faq details p { margin: 4px 0 14px; font-size: 16px; }
+
+  /* ---- P.S. ---- */
+  .ps {
+    background: #efe7d8; border-left: 5px solid #16413c;
+    padding: 14px 18px; margin: 14px 0; font-size: 16px;
+  }
+  .signature { font-style: italic; color: #8a3b1e; font-size: 19px; }
+
+  /* ---- Rodapé ---- */
+  footer {
+    background: #11302c; color: #9fb8b3; font-size: 12.5px;
+    padding: 26px; line-height: 1.6; text-align: center;
+  }
+  footer a { color: #cfe3df; }
+
+  @media (max-width: 600px) {
+    body { font-size: 17px; }
+    .hero h1 { font-size: 26px; }
+    .hero h2 { font-size: 18px; }
+    .section h2 { font-size: 22px; }
+    .quote { font-size: 18px; }
+    .pricebox .now { font-size: 44px; }
+    .btn { font-size: 17px; padding: 17px 20px; }
+    .pad { padding: 26px 18px; }
+    .hero-img { height: 190px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="alert-bar">⚠️ EL NIÑO 2026 CONFIRMADO POR NOAA E INMET — LOTE DE LANÇAMENTO ABERTO</div>
+
+<div class="wrap">
+
+  <!-- ===== HERO ===== -->
+  <header class="hero pad">
+    <div class="preheadline">Para a família brasileira que não quer ser pega de surpresa em 2026</div>
+    <h1>O El Niño 2026 vai chegar ao seu supermercado <span class="hl">antes</span> de chegar ao campo.</h1>
+    <h2>Veja como blindar a despensa da sua família para 90 dias — gastando pouco e enquanto a comida ainda está no preço de hoje.</h2>
+    <p class="subh">Um técnico agrícola que cresceu no meio da seca revela o método simples para nunca mais depender da prateleira do mercado — nem do humor do preço.</p>
+    <div class="hero-img"><span>Aldo Tavares e o Método Despensa Blindada</span></div>
+  </header>
+
+  <!-- ===== LEAD ===== -->
+  <section class="section lead pad">
+    <p>Deixa eu te fazer uma pergunta — e me responde de verdade, só para você:</p>
+    <p><strong>Se o preço do arroz, do feijão, do óleo e da carne dobrasse nos próximos 6 meses… a sua família sentiria?</strong></p>
+    <p>Se a resposta foi "sim" — ou pior, "sim, e muito" — então os próximos minutos podem ser os mais importantes que você vai investir neste ano.</p>
+    <p>Porque o que eu vou te mostrar aqui não é uma opinião. É uma <strong>data marcada</strong>.</p>
+    <p>Entre <strong>agosto e outubro de 2026</strong>, o fenômeno El Niño deve se instalar com força sobre o Brasil. Quem está dizendo isso não sou eu: é a <strong>NOAA</strong>, a agência de clima dos Estados Unidos, que aponta até <strong>98% de probabilidade</strong>. É o <strong>INMET</strong>, aqui no Brasil. É a <strong>Organização Meteorológica Mundial</strong>.</p>
+    <p>O El Niño tem um histórico conhecido: seca no Norte e Nordeste, chuva demais no Sul, lavoura comprometida, safra menor. Safra menor significa menos comida. Menos comida, com a mesma quantidade de bocas para alimentar, significa uma coisa só: o preço sobe. E sobe primeiro onde mais dói — na <strong>sua cozinha</strong>.</p>
+    <div class="quote">Você não vai receber um aviso. O preço não pisca uma luz vermelha. Ele simplesmente, num sábado qualquer de novembro, já está mais alto. E aí já é tarde.</div>
+  </section>
+
+  <!-- ===== HISTÓRIA ===== -->
+  <section class="section alt pad">
+    <div class="kicker">Quem está falando com você</div>
+    <h2>Eu cresci dentro da seca.</h2>
+    <p>Meu nome é <strong>Aldo Tavares</strong>. Tenho 58 anos e nasci em Araçuaí, no Vale do Jequitinhonha, em Minas Gerais — uma das terras mais secas que esse Brasil tem.</p>
+    <p>Vi, ainda menino, o que a seca faz com uma rua inteira. Vi vizinho bom, trabalhador, de repente medindo a comida das crianças. Mas tem uma cena que nunca me saiu da cabeça: <strong>na minha casa, isso nunca aconteceu.</strong></p>
+    <p>E não era dinheiro — a gente era pobre como os outros. Era a minha avó, a <strong>Dona Lourdes</strong>, e a despensa dela. Ela sabia exatamente o que guardar, quanto, como guardar para durar o ano inteiro e em que mês cada coisa estava mais barata. Enquanto a rua apertava o cinto, o almoço da nossa casa continuava igual.</p>
+    <p>Aquilo virou a minha vida. Me formei <strong>técnico agrícola</strong> e passei <strong>mais de 20 anos trabalhando com armazenagem de alimentos</strong> no interior de Minas. Foi juntando a sabedoria da minha avó com o que aprendi no trabalho que eu organizei o que vim te entregar hoje.</p>
+  </section>
+
+  <!-- ===== AGITAÇÃO ===== -->
+  <section class="section pad">
+    <div class="kicker">A cena que se repete</div>
+    <h2>É dia 24 do mês. E o dinheiro já está curto.</h2>
+    <p>Você vai ao mercado fazer "o resto do mês". Pega o arroz — e olha o preço duas vezes. Pega a carne — e devolve, escolhe a mais barata. Chega no caixa, e o número na tela é <strong>maior do que cabe no seu bolso</strong>.</p>
+    <p>E aí vem o pior momento. Você precisa <strong>escolher o que tirar da sacola</strong>. Na frente da fila. Na frente do seu filho.</p>
+    <p>Essa cena não é sobre comida. É sobre <strong>dignidade</strong>. É sobre o pai e a mãe que deitam a cabeça no travesseiro e não dormem, fazendo conta no escuro.</p>
+    <p>E os números provam que não é exagero: <strong>51%</strong> das famílias brasileiras já dizem que a renda não cobre o mês. <strong>61%</strong> não têm nenhuma reserva para uma emergência. Agora me diz: se hoje, com o preço "normal", já está apertado… <strong>o que acontece quando o El Niño empurrar esse preço para cima?</strong></p>
+  </section>
+
+  <!-- ===== VILÃO ===== -->
+  <section class="section alt pad">
+    <h2>Se a sua despensa está vazia hoje, a culpa não é sua.</h2>
+    <p>Ninguém te ensinou isso. Não tem na escola. Nos ensinaram a viver de prateleira. A confiar que o mercado sempre vai estar cheio, sempre aberto, sempre com o preço de ontem. Nos ensinaram a comprar "para a semana" — e assim viver <strong>100% refém</strong> do preço daquela semana exata.</p>
+    <p>O vilão dessa história não é você. O vilão é a <strong>dependência</strong>.</p>
+    <div class="quote">Hoje, quem decide o que a sua família vai comer não é você. É a prateleira.</div>
+    <p>Mas isso pode mudar. E pode mudar essa semana.</p>
+  </section>
+
+  <!-- ===== VIRADA ===== -->
+  <section class="section dark pad">
+    <h2>Eu não vim aqui te deixar com medo. Vim te tirar dele.</h2>
+    <p>A verdade libertadora é essa: <strong>você não controla o El Niño. Mas você controla, 100%, a sua despensa.</strong></p>
+    <p>Você não precisa de muito dinheiro. Não precisa de um galpão. Não precisa virar "sobrevivencialista", nem encher a casa de tambor. Não precisa de pânico.</p>
+    <p>Você precisa só de <strong>uma coisa</strong>: um método. O mesmo tipo de método que a Dona Lourdes tinha — agora organizado, calculado e simples, para a sua casa ou o seu apartamento. E o tempo, hoje, <strong>ainda está do seu lado</strong>.</p>
+  </section>
+
+  <!-- ===== MECANISMO ===== -->
+  <section class="section pad">
+    <div class="kicker">O mecanismo</div>
+    <h2>O Método da Despensa Blindada</h2>
+    <p>Ele se apoia em três pilares — e é a falha em um deles que faz a maioria das famílias errar.</p>
+    <div class="pillar">
+      <h3>🛡️ Pilar 1 — Blindar o Tempo</h3>
+      <p>Comprar dentro da janela certa: agora, enquanto o preço ainda é o de "antes". Tempo é a parte do método que não dá para recuperar.</p>
+    </div>
+    <div class="pillar">
+      <h3>🛡️ Pilar 2 — Blindar a Escolha</h3>
+      <p>Estocar os itens certos: o cruzamento do que dura, do que custa pouco, do que alimenta de verdade e do que a sua família realmente come.</p>
+    </div>
+    <div class="pillar">
+      <h3>🛡️ Pilar 3 — Blindar o Estoque</h3>
+      <p>Guardar de um jeito que dure de verdade — sem umidade, sem pragas, sem nada vencer — com o rodízio certo: o primeiro que entra é o primeiro que sai.</p>
+    </div>
+  </section>
+
+  <!-- ===== PRODUTO + MÓDULOS ===== -->
+  <section class="section alt pad">
+    <div class="kicker">A solução completa</div>
+    <h2>🛡️ Método Despensa Blindada</h2>
+    <p>O guia completo, em vídeo e em PDF, para montar a despensa de 90 dias da sua família — gastando pouco e antes da alta do El Niño 2026. Aulas curtas e diretas, que você assiste pelo celular. Acesso 100% online e <strong>imediato</strong>.</p>
+    <ul class="modules">
+      <li><strong>Módulo 1 — O Mapa dos 90 Dias</strong> Calcule a meta exata da despensa da sua família, sem chutar.</li>
+      <li><strong>Módulo 2 — A Lista Mestra</strong> Os alimentos que mais valem a pena estocar (custo × durabilidade × nutrição).</li>
+      <li><strong>Módulo 3 — Compra Inteligente</strong> Como montar a despensa sem pesar no orçamento.</li>
+      <li><strong>Módulo 4 — Armazenar para Durar</strong> Umidade, luz, calor e pragas: como guardar para durar.</li>
+      <li><strong>Módulo 5 — Rodízio Sem Perda</strong> O sistema para nada vencer e nada desperdiçar.</li>
+      <li><strong>Módulo 6 — Cozinha de Despensa</strong> Cardápios reais e gostosos com o que está estocado.</li>
+      <li><strong>Módulo 7 — O Básico de Água e Energia</strong> O essencial de reserva, sem exagero.</li>
+    </ul>
+  </section>
+
+  <!-- ===== BÔNUS ===== -->
+  <section class="section pad">
+    <div class="kicker">E ainda leva junto</div>
+    <h2>5 bônus para você começar hoje mesmo</h2>
+    <div class="bonus"><strong>🎁 Bônus 1 — Planilha "Despensa em Dia"</strong> <span class="val">(valor R$ 47)</span><br>Controle de estoque e validade — ela te avisa o que está perto de vencer.</div>
+    <div class="bonus"><strong>🎁 Bônus 2 — Listas de Compra Prontas</strong> <span class="val">(valor R$ 37)</span><br>Listas já calculadas por tamanho de família. É chegar no mercado e seguir.</div>
+    <div class="bonus"><strong>🎁 Bônus 3 — Calendário de Safra e Preço</strong> <span class="val">(valor R$ 37)</span><br>Em que mês cada alimento fica mais barato no Brasil.</div>
+    <div class="bonus"><strong>🎁 Bônus 4 — Horta de Vaso em 7 Dias</strong> <span class="val">(valor R$ 29)</span><br>Produza temperos e folhas em casa, mesmo em apartamento.</div>
+    <div class="bonus"><strong>⚡ Bônus de Ação Rápida — Aula "Os 9 Erros que Estragam a Despensa"</strong> <span class="val">(valor R$ 27)</span><br>Só para quem entra no lote de lançamento.</div>
+  </section>
+
+  <!-- ===== PREÇO ===== -->
+  <section class="section pad">
+    <div class="pricebox">
+      <p class="stack">Método completo (7 módulos): R$ 197 &nbsp;+&nbsp; 5 bônus: mais de R$ 170<br>Valor total real: mais de R$ 290</p>
+      <div class="old">De R$ 197</div>
+      <div class="now">R$ 37</div>
+      <div class="inst">à vista no Pix — ou 12x de R$ 3,80 no cartão</div>
+      <div class="cta" style="margin-bottom:0">
+        <!-- TODO: trocar href pelo link real do checkout -->
+        <a class="btn" href="#checkout">QUERO BLINDAR A DESPENSA DA MINHA FAMÍLIA</a>
+        <div class="btn-sub">Acesso imediato · Garantia total de 30 dias</div>
+      </div>
+    </div>
+    <p style="text-align:center;font-size:16px;color:#6b6457">Menos de R$ 1 por dia para ter 90 dias de comida garantida — pelo preço de hoje.</p>
+  </section>
+
+  <!-- ===== GARANTIA ===== -->
+  <section class="section pad">
+    <div class="guarantee">
+      <div class="seal">🛡️ Garantia Despensa Cheia</div>
+      <h3>30 dias de risco zero</h3>
+      <p>Entre, assista às aulas, baixe as listas, comece a montar a sua despensa. Se em 30 dias você achar que não valeu a pena, me manda uma mensagem — não precisa nem explicar o motivo — e eu devolvo <strong>100% do seu dinheiro</strong>.</p>
+      <p>A lei já te garante 7 dias. Eu te dou 30. Sem letra miúda. O único risco real é o de não fazer nada — e deixar o preço decidir por você.</p>
+    </div>
+  </section>
+
+  <!-- ===== URGÊNCIA ===== -->
+  <section class="section dark pad">
+    <h2>Sobre o tempo — a parte mais importante de tudo</h2>
+    <p>O El Niño se consolida entre agosto e outubro. Encher a despensa <strong>antes</strong> disso significa pagar o preço de hoje. Encher <strong>depois</strong> significa pagar a conta da pressa.</p>
+    <p>Além disso, o preço de R$ 37 e os 5 bônus são do <strong>lote de lançamento</strong>. Quando este lote fechar, o valor sobe e o Bônus de Ação Rápida sai do ar. A escolha é sua — mas ela tem hora para ser feita.</p>
+    <div class="cta">
+      <a class="btn" href="#checkout">GARANTIR MINHA VAGA NO LOTE DE LANÇAMENTO</a>
+      <div class="btn-sub">R$ 37 · Acesso imediato</div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section pad faq">
+    <h2 style="text-align:center">Perguntas frequentes</h2>
+    <details><summary>Eu não tenho dinheiro sobrando agora.</summary>
+      <p>Por isso este método existe. Ele te ensina a montar a despensa aos poucos, com o que você já gasta, e a economizar comprando antes da alta. R$ 37, parcelados, cabem hoje. A alta do El Niño, não.</p></details>
+    <details><summary>Eu moro em apartamento pequeno, não tenho espaço.</summary>
+      <p>O método é feito para a casa real do brasileiro — inclusive apartamento pequeno. Você vai aprender a estocar 90 dias em pouco espaço, de forma organizada. Tem até o bônus de horta em vaso.</p></details>
+    <details><summary>Será que isso funciona pra mim?</summary>
+      <p>Se a sua família come arroz, feijão e as coisas do dia a dia, funciona. O método não depende de quintal, de dinheiro sobrando nem de experiência. Depende só de você seguir o passo a passo.</p></details>
+    <details><summary>E se eu não gostar?</summary>
+      <p>Você tem 30 dias de garantia total. Não gostou, devolvo tudo. O risco é meu.</p></details>
+    <details><summary>O El Niño 2026 é verdade mesmo?</summary>
+      <p>É. Não é previsão minha — é de NOAA, INMET e WMO, as maiores agências de clima do mundo. Confira você mesmo nas fontes oficiais.</p></details>
+    <details><summary>Como eu recebo?</summary>
+      <p>Acesso 100% online e imediato. Assim que o pagamento é confirmado, você já entra na área de membros e pode começar hoje, pelo celular.</p></details>
+  </section>
+
+  <!-- ===== CTA FINAL ===== -->
+  <section class="section alt pad">
+    <h2>Daqui a alguns meses, vão existir dois tipos de família.</h2>
+    <p>A primeira vai estar no mercado, no fim do ano, olhando o preço subir, tirando item da sacola, sentindo o aperto de quem sabe que <strong>deu para se preparar — e não se preparou</strong>.</p>
+    <p>A segunda vai estar em paz. Com a despensa cheia, comprada pelo preço de hoje. Vai dormir tranquila.</p>
+    <p>A diferença entre as duas não é dinheiro. Não é sorte. É <strong>uma decisão</strong> — e ela está sendo tomada agora, nesta página.</p>
+    <p>Minha avó Dona Lourdes me ensinou de um jeito que eu nunca esqueci: <strong>quem tem despensa, tem paz.</strong> Hoje, essa paz custa R$ 37 — e vem com a minha garantia total.</p>
+    <div class="cta">
+      <a class="btn" href="#checkout">SIM! QUERO O MÉTODO DESPENSA BLINDADA POR R$ 37</a>
+      <div class="btn-sub">Acesso imediato · Garantia de 30 dias · 5 bônus do lote de lançamento</div>
+    </div>
+    <p class="signature">Te encontro lá dentro. — Aldo Tavares</p>
+  </section>
+
+  <!-- ===== P.S. ===== -->
+  <section class="section pad">
+    <div class="ps"><strong>P.S. 1 —</strong> O El Niño 2026 está confirmado por NOAA e INMET e deve pressionar o preço dos alimentos no segundo semestre. O Método Despensa Blindada te ensina a montar uma despensa de 90 dias gastando pouco — enquanto a comida ainda está barata. 7 módulos + 5 bônus, por R$ 37, com 30 dias de garantia total.</div>
+    <div class="ps"><strong>P.S. 2 —</strong> Lembra do tempo. O preço de R$ 37 e os bônus são do lote de lançamento. E a janela do clima fecha entre agosto e outubro. Tudo neste método gira em torno de agir antes.</div>
+    <div class="ps"><strong>P.S. 3 —</strong> Você não corre nenhum risco. Se em 30 dias achar que não valeu, devolvo cada centavo. O único risco que existe é o de fechar esta página e deixar o preço decidir pela sua família. Quem tem despensa, tem paz.</div>
+    <div class="cta">
+      <a class="btn" href="#checkout">QUERO COMEÇAR AGORA — R$ 37</a>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Método Despensa Blindada</strong></p>
+    <p>Esta página é uma oferta comercial. As informações climáticas citadas têm fonte pública e verificável (NOAA, INMET, WMO). Os resultados variam conforme a aplicação individual do método e não são garantidos. Este conteúdo não constitui aconselhamento financeiro, nutricional ou de segurança. Em caso de dúvida sobre conservação de alimentos, consulte um profissional.</p>
+    <p style="margin-top:10px"><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a> · <a href="#">Contato / Suporte</a></p>
+    <p style="margin-top:10px">© [ANO] Método Despensa Blindada. Todos os direitos reservados.</p>
+  </footer>
+
+</div>
+</body>
+</html>
